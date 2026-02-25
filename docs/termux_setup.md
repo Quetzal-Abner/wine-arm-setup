@@ -4,21 +4,21 @@ Actualización base del entorno Termux antes de instalar proot.
 
 ## Actualizar paquetes
 
-pkg update
-pkg upgrade
+```pkg update
+pkg upgrade```
 
 ## Repositorios adicionales
 
-pkg install x11-repo
-pkg install tur-repo
+```pkg install x11-repo
+pkg install tur-repo```
 
 ## Paquetes necesarios
 
-pkg install termux-x11-nightly
+```pkg install termux-x11-nightly
 pkg install pulseaudio
 pkg install proot-distro
 pkg install wget
-pkg install git
+pkg install git```
 
 ## Notas
 
