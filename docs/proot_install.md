@@ -2,6 +2,8 @@
 
 ## Verificar instalación
 
-```proot-distro list```
+```bash
+proot-distro list
+```
 
 Debe aparecer vacío si no hay distribuciones instaladas.

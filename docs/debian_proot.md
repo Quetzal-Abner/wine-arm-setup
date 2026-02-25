@@ -2,10 +2,14 @@
 
 ## Instalar Debian
 
-```proot-distro install debian```
+```bash
+proot-distro install debian
+```
 
 ## Entrar al entorno
 
-```proot-distro login debian```
+```bash
+proot-distro login debian
+```
 
 Documentar aquí cada paquete instalado posteriormente.
