@@ -16,7 +16,7 @@ Sistema objetivo:
 4. [MIDI configuration (FluidSynth)](docs/04-midi-fluidsynth.md)
 5. [Network (HTTPS and DNS)](docs/05-network-https-dns.md)
 
-See the documentation inside the [`docs`](docs/) directory.
+See the documentation inside the [`docs/`](docs/) directory.
 
 ## References
 
