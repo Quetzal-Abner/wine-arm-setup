@@ -111,8 +111,85 @@ Evita problemas con sockets X11 y PulseAudio:
 proot-distro login debian --shared-tmp
 ```
 
-Cambiar usuario:
+## Crear usuario NO ROOT (Primera vez solamente)
+
+Después de entrar a Debian por primera vez, crear un usuario normal.
+
+Verificar:
+
+```bash
+whoami
+````
+
+Debe devolver:
+
+```
+root
+```
+
+Crear usuario:
+
+```bash
+adduser quetzal
+```
+
+Seguir instrucciones:
+
+* contraseña
+* información opcional (puede omitirse).
+
+---
+
+## Permisos administrativos (sudo)
+
+Instalar sudo:
+
+```bash
+apt update
+apt install sudo
+```
+
+Abrir configuración sudo:
+
+```bash
+visudo
+```
+
+Agregar al final:
+
+```
+quetzal ALL=(ALL) ALL
+```
+
+Guardar y salir.
+
+---
+
+## Cambiar usuario
+
+⚠️ No ejecutar pasos posteriores como root.
+
+Usar:
 
 ```bash
 su - quetzal
 ```
+
+Verificar:
+
+```bash
+whoami
+```
+
+Debe devolver:
+
+```
+quetzal
+```
+
+````
+
+Nota:
+
+Este método asegura permisos administrativos incluso
+en instalaciones Debian minimal o entornos proot.
