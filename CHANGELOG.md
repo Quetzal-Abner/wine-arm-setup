@@ -19,3 +19,21 @@ Todos los cambios importantes de este proyecto serán documentados aquí.
 
 - Eliminación de enlaces MIDI externos rotos.
 - Generación local de archivos MIDI de prueba mediante CSV.
+
+---
+
+## [0.1.0] - 2026-02-28
+
+### Added
+
+- Preparación Host Termux
+- Servidor gráfico X11
+- Bridge PulseAudio
+- Configuración MIDI FluidSynth
+- HTTPS y DNS
+- Troubleshooting inicial
+- Arquitectura del proyecto
+
+### Notes
+
+Primera versión funcional del entorno base previo a Wine ARM.
