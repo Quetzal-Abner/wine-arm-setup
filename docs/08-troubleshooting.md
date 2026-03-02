@@ -218,3 +218,19 @@ Red:
 ping google.com
 
 Si todo funciona, el entorno está correctamente configurado.
+
+---
+
+## Box86 no ejecuta binarios
+
+Error:
+
+cannot execute: required file not found
+
+Solución:
+
+Instalar librerías ARMHF:
+
+sudo dpkg --add-architecture armhf
+sudo apt update
+sudo apt install libc6:armhf libstdc++6:armhf libgcc-s1:armhf

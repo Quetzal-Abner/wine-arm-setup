@@ -21,6 +21,7 @@ Guías paso a paso para preparar el entorno:
 3. [Configuración de audio (Puente PulseAudio)](docs/03-audio-pulseaudio.md)
 4. [Configuración MIDI (FluidSynth)](docs/04-midi-fluidsynth.md)
 5. [Red (HTTPS y DNS)](docs/05-network-https-dns.md)
+6. [Box86 y Box64](docs/06-box86-box64.md)
 
 Toda la documentación se encuentra dentro del directorio [`docs/`](docs/).
 
