@@ -187,8 +187,6 @@ Debe devolver:
 quetzal
 ```
 
-````
-
 Nota:
 
 Este método asegura permisos administrativos incluso
