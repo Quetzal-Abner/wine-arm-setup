@@ -1,23 +1,36 @@
 # Entorno gráfico y audio — Termux + Debian Proot
 
-Preparación del entorno gráfico y audio antes de instalar Wine ARM.
+Preparación del entorno gráfico, audio y red antes de instalar Wine ARM.
 
-Sistema objetivo:
+---
 
-* Android
-* Termux (HOST)
-* Debian dentro de proot
+## Sistema objetivo
 
-## Documentation
+- Android
+- Termux (HOST)
+- Debian dentro de proot
 
-1. [Host preparation (Termux)](docs/01-termux-host.md)
-2. [X11 Graphics setup](docs/02-x11-graphics.md)
-3. [Audio (PulseAudio bridge)](docs/03-audio-pulseaudio.md)
-4. [MIDI configuration (FluidSynth)](docs/04-midi-fluidsynth.md)
-5. [Network (HTTPS and DNS)](docs/05-network-https-dns.md)
+---
 
-See the documentation inside the [`docs/`](docs/) directory.
+## Documentación
 
-## References
+Guías paso a paso para preparar el entorno:
 
-See docs/references.md
+1. [Preparación del Host (Termux)](docs/01-termux-host.md)
+2. [Configuración gráfica X11](docs/02-x11-graphics.md)
+3. [Configuración de audio (Puente PulseAudio)](docs/03-audio-pulseaudio.md)
+4. [Configuración MIDI (FluidSynth)](docs/04-midi-fluidsynth.md)
+5. [Red (HTTPS y DNS)](docs/05-network-https-dns.md)
+
+Toda la documentación se encuentra dentro del directorio [`docs/`](docs/).
+
+---
+
+## Documentación del proyecto
+
+Información técnica adicional:
+
+- [Arquitectura](docs/architecture.md)
+- [Solución de problemas (Troubleshooting)](docs/troubleshooting.md)
+- [Referencias](docs/references.md)
+- [Historial de cambios (Changelog)](CHANGELOG.md)
